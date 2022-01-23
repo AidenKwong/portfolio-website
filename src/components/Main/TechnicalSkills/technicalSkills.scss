@@ -1,0 +1,23 @@
+#technicalSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  .container {
+    border: 0.25rem solid #003566;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    .caption {
+      font-weight: 500;
+      font-size: 1.5rem;
+    }
+    .caption-light {
+      font-weight: 400;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+ul {
+}
