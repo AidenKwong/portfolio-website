@@ -8,6 +8,9 @@ import Main from "./components/Main";
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
   const objRef = document.body;
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   useEffect(() => {
     objRef.classList.add("stop-scrolling");
     setTimeout(() => {
@@ -17,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="App">
       {loading && (
         <AnimatePresence>
           <motion.div

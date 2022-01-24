@@ -2,6 +2,7 @@ import React from "react";
 import "./main.scss";
 import TechnicalSkills from "./TechnicalSkills";
 import profilePic from "../../asset/image/profile_picture.jpg";
+import Bio from "./Bio";
 
 export default function Main() {
   return (
@@ -18,6 +19,7 @@ export default function Main() {
           `}
         </h2>
       </div>
+      <Bio />
 
       <TechnicalSkills />
     </div>
