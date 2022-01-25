@@ -25,7 +25,7 @@ export default function Navbar() {
         />
       </div>
 
-      <div className={`${dropDown ? "links" : "links active"}`} ref={linksRef}>
+      <div className={`${dropDown ? "links active" : "links"}`} ref={linksRef}>
         <a
           href="https://www.linkedin.com/in/aiden-kwong-6b17861b4/"
           target="_blank"
