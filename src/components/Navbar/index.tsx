@@ -20,7 +20,6 @@ export default function Navbar() {
         <MdOutlineMenu
           onClick={() => {
             setDropDown(!dropDown);
-            console.log(dropDown);
           }}
         />
       </div>
