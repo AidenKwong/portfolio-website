@@ -26,7 +26,7 @@ function App() {
           <motion.div
             initial={{ opacity: 1 }}
             animate={{ opacity: 0 }}
-            transition={{ type: "ease-in", duration: 5 }}
+            transition={{ type: "ease-in", duration: 3 }}
             exit={{ opacity: 0 }}
           >
             <LoadingScreen />
